@@ -1,0 +1,13 @@
+.list-group-item {
+  display: flex;
+}
+
+.box::after {
+  position: absolute;
+  right: 10px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  content: "\274C";
+  font-size: 14px;
+}
