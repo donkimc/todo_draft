@@ -38,7 +38,8 @@ btn.addEventListener('click', (e) => {
     div.classList.add("box");
     li.appendChild(div);
     itemList.appendChild(li);
-    addListenerOnItem(li);
+    // console.log(li.childNodes[1]);
+    addListenerOnItem(li.childNodes[1]);
   }
   else {
     alert('Enter text');
